@@ -1,13 +1,13 @@
 <div align="center">
   <a href="https://github.com/anupomroy111">
-    <img src="./assets/banner.svg" alt="Anupom Roy - Hero Banner" width="100%" />
+    <img src="./assets/banner.jpg" alt="Anupom Roy - Software Developer | AI Builder | App Creator" width="100%" style="border-radius: 12px;" />
   </a>
 
   <br/><br/>
 
   <p align="center">
     <a href="https://github.com/anupomroy111">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Flutter+%26+Dart+Mobile+App+Specialist;Python+%26+FastAPI+Backend+Architect;Building+Modern+AI+%26+Voice+Solutions;Crafting+Pixel-Perfect+User+Experiences" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Flutter+%26+Dart+Mobile+App+Specialist;On-Device+AI+%26+llama.cpp+Innovator;Python+%26+FastAPI+Backend+Architect;Low-RAM+Android+Optimization+Expert" alt="Typing SVG" />
     </a>
   </p>
 
@@ -15,11 +15,11 @@
     <a href="https://www.linkedin.com/in/anupom-roy-728909401/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="mailto:254368140+anupomroy111@users.noreply.github.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="mailto:royaa7840@gmail.com">
+      <img src="https://img.shields.io/badge/Email-royaa7840%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://github.com/anupomroy111?tab=repositories">
-      <img src="https://img.shields.io/badge/Public_Repos-25-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+      <img src="https://img.shields.io/badge/Public_Repos-25+-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
     </a>
     <img src="https://komarev.com/ghpvc/?username=anupomroy111&label=Profile%20Views&color=0284c7&style=for-the-badge" alt="Profile Views" />
   </p>
@@ -27,20 +27,56 @@
 
 <br/>
 
-### 👨‍💻 About Me
+### 💡 Professional Summary & Objective
 
-> **Full-Stack & Mobile Developer** passionate about turning ambitious ideas into scalable, production-ready software. Focused on building smooth mobile apps with **Flutter** and high-performance backends with **Python & FastAPI**.
+> **Software Developer specializing in mobile application engineering with Flutter & Dart, native Android (Kotlin), Python backends (FastAPI/Django), and privacy-first On-Device AI.**
+> Certified in **App Development with Flutter & AI (Ostad)** with demonstrated experience engineering memory-constrained apps with **0 MB background Flutter runtime overhead**, low-latency on-device inference on **2GB–4GB Android hardware**, hardware-backed encryption, and real-time cloud architectures.
 
-- 🔭 **Current Focus:** Engineering cross-platform mobile apps, AI-driven APIs, and real-time microservices.
-- 📱 **Mobile Core:** Expert in **Flutter & Dart** with clean architecture, Provider, and reactive state management.
-- ⚡ **Backend & APIs:** Designing robust RESTful services and asynchronous workers using **FastAPI, Django & Python**.
-- 🤖 **AI & Innovations:** Implementing context-aware summarizers, voice processing, and intelligent assistants.
-- 💬 **Let's Talk About:** Flutter development, Clean Code, Backend Architecture, Open-Source & New Tech.
-- 💼 **Connect with Me:** Find me on [LinkedIn](https://www.linkedin.com/in/anupom-roy-728909401/) or reach out via [Email](mailto:254368140+anupomroy111@users.noreply.github.com).
+- 📍 **Location:** Kaliyaganj, West Bengal, India
+- 🎯 **Open to:** Entry-level Software Engineering Roles, Full-Stack / Mobile Engineering & High-impact Collaborations.
+- 📬 **Get in touch:** [royaa7840@gmail.com](mailto:royaa7840@gmail.com) • [LinkedIn](https://www.linkedin.com/in/anupom-roy-728909401/)
 
 ---
 
-### 🛠️ Tech Stack & Arsenal
+### 🚀 Featured Engineering Projects
+
+#### 🛡️ [ShieldMind AI — Offline AI Notification Firewall & Summarizer](https://github.com/anupomroy111/AI-Notification-Firewall-Context-Summarizer)
+*`Flutter (Dart 3)` • `Kotlin` • `Riverpod` • `SQLite (WAL)` • `AES-256-GCM` • `llama.cpp`*
+- **Zero-Overhead Architecture:** Engineered an offline Android security app for 2GB–4GB RAM devices with **0 MB background Flutter engine overhead** via native Kotlin background interceptor.
+- **Real-Time Threat Classifier:** Built a high-speed Tier-1 security engine (~8 MB RAM, 8–14 ms latency) detecting phishing, OTP harvesting traps, and homograph character spoofing.
+- **Privacy & Security:** Implemented hardware-backed **AndroidKeyStore AES-256-GCM** envelope encryption, `Isolate.run()` batch decryption, pure Dart TextRank + `llama.cpp` FFI summarization, and a 60 FPS GPU-optimized UI.
+
+---
+
+#### 🧠 GhostPilot AI — Low-RAM System-Wide Android Screen Copilot
+*`Flutter` • `Kotlin` • `Accessibility Service` • `Multi-Process :agent` • `llama.cpp`*
+- **Low-Resource Overlay HUD:** Architected a floating copilot operating smoothly on 2GB Android Go hardware (<= 8 MB incremental PSS, <= 50 ms p95 screen text extraction).
+- **Play Store Compliant:** Designed strict suggest-only execution (**SafetyGate** confirmation flow) and automated local PII redaction (cards, OTPs, IBANs).
+- **Multi-Mode AI Pipeline:** Offline deterministic heuristics, isolated `:agent` native `llama.cpp` inference, and optional BYOK cloud LLM integration.
+
+---
+
+#### 💬 Aora+ — Real-Time Private Android Messenger
+*`Flutter` • `Dart` • `Firebase Auth` • `Cloud Firestore`*
+- **Zero-Cost Scalable Architecture:** Private real-time messenger built to operate seamlessly on Firebase with Google Sign-In and unique `@username` claims.
+- **Optimistic Real-Time Engine:** Implemented optimistic sending (`hasPendingWrites`), message editing, soft deletion, typing indicators, live presence, and lightweight split-ABI APKs (**22.9 MB** arm64-v8a).
+
+---
+
+#### 🔧 AI Mobile Technician & Voice Assistant
+*`Kotlin` • `Jetpack Compose` • `Material 3` • `Room` • `SpeechRecognizer` • `Gemini API`*
+- **Diagnostic Agent:** Engineered a bounded troubleshooting workflow (*observe → diagnose → consent → verify*) running live DNS/HTTPS probes with strict tool allowlists.
+- **Multilingual Voice Engine:** Built multilingual speech dictation supporting **Bengali, Hindi, English, and Banglish** paired with a Gemini structured-output proxy.
+
+---
+
+#### 📚 AI-Powered Quiz & Learning Platform
+*`Flutter` • `Go (Chi)` • `PostgreSQL (pgvector)` • `FastAPI` • `NATS JetStream` • `MinIO`*
+- **Modular Monolith & Microservices:** Material 3 Flutter client integrated with high-performance Go backend and Python background workers for isolated document ingestion and vector semantic search (`pgvector`).
+
+---
+
+### 🎯 Technical Skills & Arsenal
 
 <div align="center">
 
@@ -48,55 +84,70 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-#### 📱 Frameworks & Web Technologies
+#### 📱 Mobile Engineering
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Flutter_(Dart_3)-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=android&logoColor=white" alt="Jetpack Compose" />
+  <img src="https://img.shields.io/badge/Riverpod-2C3E50?style=for-the-badge&logo=dart&logoColor=white" alt="Riverpod" />
+  <img src="https://img.shields.io/badge/Provider-0175C2?style=for-the-badge&logo=flutter&logoColor=white" alt="Provider" />
+  <img src="https://img.shields.io/badge/Material_3-7C3AED?style=for-the-badge&logo=materialdesign&logoColor=white" alt="Material 3" />
+  <img src="https://img.shields.io/badge/Clean_Architecture-10B981?style=for-the-badge&logo=flutter&logoColor=white" alt="Clean Architecture" />
+</p>
+
+#### 🤖 On-Device & Cloud AI
+<p align="center">
+  <img src="https://img.shields.io/badge/llama.cpp_(On--Device)-FF6F00?style=for-the-badge&logo=cplusplus&logoColor=white" alt="llama.cpp" />
+  <img src="https://img.shields.io/badge/LiteRT_/_TFLite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Lite" />
+  <img src="https://img.shields.io/badge/Google_Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" />
+  <img src="https://img.shields.io/badge/TextRank_%26_TF--IDF-4CAF50?style=for-the-badge&logo=python&logoColor=white" alt="NLP" />
+  <img src="https://img.shields.io/badge/AI_Safety_Gates-E11D48?style=for-the-badge&logo=shield&logoColor=white" alt="AI Safety" />
+</p>
+
+#### ⚙️ Backend, Web & Message Brokers
+<p align="center">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/REST_APIs-0284C7?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/NATS_JetStream-27AAE1?style=for-the-badge&logo=natsdotio&logoColor=white" alt="NATS" />
 </p>
 
-#### 🗄️ Databases & Cloud
+#### 🗄️ Databases & Storage
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Firebase_(Firestore/Auth)-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/PostgreSQL_(pgvector)-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite_(WAL_Mode)-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Android_Room-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Room" />
+  <img src="https://img.shields.io/badge/MinIO-C72C48?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
 </p>
 
-#### ⚙️ Developer Tools & DevOps
+#### 🛠️ Developer Tools & DevOps
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
 </p>
 
 </div>
 
 ---
 
-### 🚀 Highlighted Projects
+### 🎓 Certifications & Training
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| 🎙️ **[anupom-chat-ai-api-VOICE](https://github.com/anupomroy111/anupom-chat-ai-api-VOICE)** | Advanced FastAPI backend for mobile apps with real-time voice processing and conversational AI. | `Python` `FastAPI` `Voice AI` |
-| 🛡️ **[AI-Notification-Firewall](https://github.com/anupomroy111/AI-Notification-Firewall-Context-Summarizer)** | Context-aware AI engine summarizing high-volume notifications to prevent fatigue. | `Python` `NLP` `AI` |
-| 🛍️ **[ecommerce_app](https://github.com/anupomroy111/ecommerce_app)** | Modern, fully featured mobile e-commerce client with dynamic cart, checkout & slick UI. | `Flutter` `Dart` `REST API` |
-| ⚽ **[live-score-app-anupom](https://github.com/anupomroy111/live-score-app-anupom)** | High-frequency sports updates and live match tracker application. | `Flutter` `Dart` |
-| 📋 **[Task-Manager-Provider](https://github.com/anupomroy111/Task-Manager-Ostad-project-provider)** | Production-grade task organizer implementing Provider architectural pattern. | `Flutter` `Dart` `Provider` |
+- 🏆 **App Development with Flutter & AI** — *Ostad* (Intensive hands-on training covering Flutter UI architecture, reactive state management [Riverpod, Provider], Firebase, REST APIs, and On-Device/Cloud AI workflows).
+- 🏫 **Secondary Education (10th / Madhyamik)** — *Kaliyaganj Parbati Sundari High School (WBBSE)*
 
 ---
 
@@ -121,14 +172,14 @@
   <a href="https://www.linkedin.com/in/anupom-roy-728909401/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="mailto:royaa7840@gmail.com">
+    <img src="https://img.shields.io/badge/Email-royaa7840%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
   <a href="https://github.com/anupomroy111" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:254368140+anupomroy111@users.noreply.github.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
 <div align="center">
-  <sub>⭐️ Crafted with precision &amp; code by <a href="https://github.com/anupomroy111">Anupom Roy</a></sub>
+  <sub>⭐️ Built with precision, code &amp; passion by <a href="https://github.com/anupomroy111">Anupom Roy</a></sub>
 </div>
