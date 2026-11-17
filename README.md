@@ -36,6 +36,13 @@
 - 🎯 **Open to:** Entry-level Software Engineering Roles, Full-Stack / Mobile / AI Engineering & High-impact Collaborations.
 - 📬 **Get in touch:** [royaa7840@gmail.com](mailto:royaa7840@gmail.com) • [LinkedIn](https://www.linkedin.com/in/anupom-roy-728909401/)
 
+
+<p align="center">
+  <a href="https://anupomroy111.github.io/Body-Tracking-AR-Running-Game/">
+    <img src="https://img.shields.io/badge/TRY_ROY_SPEED-Live_Body--Tracked_AR_Demo-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Try ROY SPEED live demo" />
+  </a>
+</p>
+
 ---
 
 ### 🚀 Featured Engineering Projects
@@ -206,6 +213,13 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anupomroy111&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" width="100%" />
+</div>
+
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anupomroy111&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="GitHub Trophies" width="100%" />
 </div>
 
 ---
