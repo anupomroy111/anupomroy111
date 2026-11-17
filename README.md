@@ -7,7 +7,7 @@
 
   <p align="center">
     <a href="https://github.com/anupomroy111">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Flutter+%26+Dart+Mobile+App+Specialist;On-Device+AI+%26+llama.cpp+Innovator;Python+%26+FastAPI+Backend+Architect;Low-RAM+Android+Optimization+Expert" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Body-Tracked+AR+Games+%E2%80%94+MediaPipe+%2B+Three.js;RAG+Pipelines+with+Automated+LLM+Evaluation;Flutter+%26+Dart+Mobile+App+Specialist;On-Device+AI+%26+llama.cpp+Innovator;Python+%26+FastAPI+Backend+Architect" alt="Typing SVG" />
     </a>
   </p>
 
@@ -29,16 +29,42 @@
 
 ### 💡 Professional Summary & Objective
 
-> **Software Developer specializing in mobile application engineering with Flutter & Dart, native Android (Kotlin), Python backends (FastAPI/Django), and privacy-first On-Device AI.**
-> Certified in **App Development with Flutter & AI (Ostad)** with demonstrated experience engineering memory-constrained apps with **0 MB background Flutter runtime overhead**, low-latency on-device inference on **2GB–4GB Android hardware**, hardware-backed encryption, and real-time cloud architectures.
+> **Software Developer specializing in mobile application engineering with Flutter & Dart, native Android (Kotlin), Python backends (FastAPI/Django), privacy-first On-Device AI, browser-based AR (MediaPipe + Three.js), and evaluation-driven RAG systems.**
+> Certified in **App Development with Flutter & AI (Ostad)** with demonstrated experience engineering memory-constrained apps with **0 MB background Flutter runtime overhead**, low-latency on-device inference on **2GB–4GB Android hardware**, hardware-backed encryption, real-time cloud architectures, and **measurable LLM quality** (faithfulness / hallucination evaluation with ablation studies).
 
 - 📍 **Location:** Kaliyaganj, West Bengal, India
-- 🎯 **Open to:** Entry-level Software Engineering Roles, Full-Stack / Mobile Engineering & High-impact Collaborations.
+- 🎯 **Open to:** Entry-level Software Engineering Roles, Full-Stack / Mobile / AI Engineering & High-impact Collaborations.
 - 📬 **Get in touch:** [royaa7840@gmail.com](mailto:royaa7840@gmail.com) • [LinkedIn](https://www.linkedin.com/in/anupom-roy-728909401/)
 
 ---
 
 ### 🚀 Featured Engineering Projects
+
+#### 🏃 [ROY SPEED — Body-Tracked AR Endless Runner](https://github.com/anupomroy111/Body-Tracking-AR-Running-Game)
+
+<p>
+  <a href="https://anupomroy111.github.io/Body-Tracking-AR-Running-Game/">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-Play_in_Browser-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/anupomroy111/Body-Tracking-AR-Running-Game">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+  </a>
+</p>
+
+*`JavaScript (ES Modules)` • `Three.js (WebGL)` • `MediaPipe PoseLandmarker` • `WebAudio API` • `Zero Build Step`*
+- **Your Body Is the Controller:** Real-time full-body pose estimation drives gameplay — step sideways = lane change, arms up = jump, squat = slide, T-pose = hoverboard. GPU delegate with automatic CPU fallback, **100% client-side**, no install.
+- **Robust Gesture Pipeline:** 2-second height/distance calibration, exponential smoothing, hysteresis lane bands, and per-gesture cooldowns turn noisy landmark streams into reliable real-time game events — with a live gesture coach and graceful touch/keyboard fallback.
+- **Complete Game Product:** 4 unlockable runners with gameplay perks, rotating missions, coin-bank progression, 3 difficulty tiers, a fully procedural WebAudio soundtrack (zero audio assets), and a responsive premium dashboard from phone to desktop.
+
+---
+
+#### 🧪 [Custom RAG & Evaluation Pipeline — RAG That Grades Its Own Answers](https://github.com/anupomroy111/custom-rag-evaluation-pipeline)
+*`Python` • `Hybrid BM25 + Dense (RRF)` • `LLM Reranking` • `Gemini API` • `LLM-as-Judge`*
+- **Self-Evaluating RAG:** Citation-grounded generation with an automated evaluation pipeline measuring **Faithfulness, Hallucination rate, Answer Relevancy, Context Precision/Recall, and Refusal accuracy** — every claim audited against its source passage.
+- **Measured Results (12-question golden set):** Faithfulness **1.000** and hallucination **0.000** across all retrieval variants; the ablation study exposes dense-only precision dropping to **0.908** on keyword-heavy queries and RRF fusion recovering it to **1.0**; both unanswerable questions correctly refused — zero fabricated answers.
+- **Pure-Python Retrieval Core:** Okapi BM25 + cosine dense search fused with Reciprocal Rank Fusion, listwise LLM re-ranking (relevance grades 0–3), disk-cached embeddings, and one-command 4-variant ablation reports with a per-claim audit trail.
+
+---
 
 #### 🛡️ [ShieldMind AI — Offline AI Notification Firewall & Summarizer](https://github.com/anupomroy111/AI-Notification-Firewall-Context-Summarizer)
 *`Flutter (Dart 3)` • `Kotlin` • `Riverpod` • `SQLite (WAL)` • `AES-256-GCM` • `llama.cpp`*
@@ -101,11 +127,23 @@
   <img src="https://img.shields.io/badge/Clean_Architecture-10B981?style=for-the-badge&logo=flutter&logoColor=white" alt="Clean Architecture" />
 </p>
 
-#### 🤖 On-Device & Cloud AI
+#### 🕶️ AR, Graphics & Game Engineering
+<p align="center">
+  <img src="https://img.shields.io/badge/Three.js_(WebGL)-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
+  <img src="https://img.shields.io/badge/MediaPipe_Pose-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/WebAudio_API-FF6F00?style=for-the-badge&logo=javascript&logoColor=white" alt="WebAudio" />
+  <img src="https://img.shields.io/badge/Canvas_2D-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Canvas 2D" />
+  <img src="https://img.shields.io/badge/Responsive_Game_UI-7C3AED?style=for-the-badge&logo=css3&logoColor=white" alt="Responsive Game UI" />
+</p>
+
+#### 🤖 AI Engineering — On-Device, LLM & RAG
 <p align="center">
   <img src="https://img.shields.io/badge/llama.cpp_(On--Device)-FF6F00?style=for-the-badge&logo=cplusplus&logoColor=white" alt="llama.cpp" />
   <img src="https://img.shields.io/badge/LiteRT_/_TFLite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Lite" />
   <img src="https://img.shields.io/badge/Google_Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" />
+  <img src="https://img.shields.io/badge/RAG_Pipelines-4CAF50?style=for-the-badge&logo=python&logoColor=white" alt="RAG" />
+  <img src="https://img.shields.io/badge/Hybrid_BM25%2BDense_(RRF)-0284C7?style=for-the-badge&logo=python&logoColor=white" alt="Hybrid Retrieval" />
+  <img src="https://img.shields.io/badge/LLM--as--Judge_Evaluation-10B981?style=for-the-badge&logo=checkmarx&logoColor=white" alt="LLM Evaluation" />
   <img src="https://img.shields.io/badge/TextRank_%26_TF--IDF-4CAF50?style=for-the-badge&logo=python&logoColor=white" alt="NLP" />
   <img src="https://img.shields.io/badge/AI_Safety_Gates-E11D48?style=for-the-badge&logo=shield&logoColor=white" alt="AI Safety" />
 </p>
@@ -162,6 +200,12 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=anupomroy111&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anupomroy111&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" width="100%" />
 </div>
 
 ---
